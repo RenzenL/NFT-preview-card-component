@@ -1,0 +1,95 @@
+html {
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  color: white;
+  background-color: #0d192b;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #14253d;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 1.4em 0;
+  -webkit-box-shadow: 0 8px 8px 5px rgba(15, 15, 15, 0.479);
+          box-shadow: 0 8px 8px 5px rgba(15, 15, 15, 0.479);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container #nft {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text h1 {
+  font-size: 1rem;
+}
+
+.text p {
+  font-size: 0.8rem;
+}
+
+.text .bottom {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 1.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text #ethereum {
+  width: 10px;
+}
+
+.text #clock {
+  width: 17px;
+}
+
+.color-blue {
+  color: #8bacda;
+}
+
+.space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5em;
+  border-bottom: 1px solid #2f415b;
+}
+
+#avatar {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-right: 1.5em;
+}
+/*# sourceMappingURL=styles.css.map */

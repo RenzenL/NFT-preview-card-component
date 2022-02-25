@@ -1,0 +1,67 @@
+@import "./util";
+
+body{
+    color: $White;
+    background-color: $mainBG;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: $cardBG;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 1.4em 0;
+    box-shadow: 0 8px 8px 5px rgba(15, 15, 15, 0.479);
+    
+}
+.container{
+        width: 80%;
+        margin: 0 auto;
+    #nft{
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+.text{
+    h1{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .bottom{
+        text-align: center;
+        font-size: 0.8rem;
+        padding-top: 1.4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #ethereum{
+        width: 10px;
+    }
+    #clock{
+        width: 17px;
+    }
+}
+
+.color-blue{
+    color:$Soft_blue;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-bottom: 1px solid $line;
+}
+#avatar{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-right: 1.5em;
+}
